@@ -1,0 +1,62 @@
+.promotion_content{
+    padding: 124px 3% 50px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.promotion_content h1{
+    font-size: 50px;
+    font-weight: bolder;
+    /* padding: 20px 0; */
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.promotion_content .promotion{
+    display: flex;
+}
+
+.promotion_content .promotion img{
+    width: 50%;
+    height: 500px;
+}
+
+.promotion_content .promotion .text{
+    display:inline;
+    margin-left: 50px;
+    padding-top: 5%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.promotion_content .promotion .text h2{
+    font-size: 50px;
+    margin: 25px 0;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.promotion_content .promotion .text h2:hover{
+    color: red;
+}
+
+.promotion_content .promotion .text p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.promotion_content .promotion .text .button{
+    padding: 10px 20px;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+}
+
+.promotion_content .promotion .text .button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}

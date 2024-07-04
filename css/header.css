@@ -1,0 +1,73 @@
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 7%;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background-color: black;
+    position: fixed;
+    list-style: none;
+    color: white;
+    border-bottom: 5px solid red;
+}
+
+
+header nav h1{
+    font-size: 35px;
+    color: white;
+    margin: 5px 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 550;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+header nav ul li a{
+    color: white;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header nav ul li a:hover{
+    color: red;
+}
+
+header nav ul li a::after{
+    content: "";
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+    transform: scaleX(0);
+}
+
+header nav ul li a:hover::after{
+    transform: scaleX(1);
+}
+
+header nav .sign_in p{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+header nav .sign_in p:hover{
+    background-color: white;
+    color: red;
+}
+
+
+
+

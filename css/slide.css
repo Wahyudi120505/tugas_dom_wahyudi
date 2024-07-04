@@ -1,0 +1,22 @@
+main .home_content .slide img{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation-name:animation-slide;
+    animation-duration: 1.5s;
+} 
+
+.home_content .slide {
+    display: none ;
+}
+
+@keyframes animation-slide{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
